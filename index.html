@@ -3,42 +3,77 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>HalalConnect – Premium Meat Delivery</title>
+  <title>Halal Connect</title>
   <link rel="stylesheet" href="css/style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
-    <h1>HalalConnect</h1>
-    <p class="tagline">Supplying Quality Halal Meats Across NY & NJ</p>
+    <nav>
+      <h1>Halal Connect®</h1>
+      <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#book">Book</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="#book" class="btn">Get Started</a>
+    </nav>
+    <div class="hero">
+      <h2>Halal. Delivered. Fresh.</h2>
+      <p>From slaughterhouse to your restaurant.</p>
+      <a href="#book" class="btn">Book Meat</a>
+    </div>
   </header>
 
-  <section class="services">
-    <h2>Our Services</h2>
-    <ul>
-      <li>Fresh Halal beef, lamb, and goat – directly from slaughterhouse</li>
-      <li>Timely delivery to restaurants across NY & NJ</li>
-      <li>Custom cuts & certifications available</li>
-    </ul>
+  <section id="services">
+    <h2>What We Offer</h2>
+    <div class="grid">
+      <div>
+        <h3>Chicken, beef, and lamb.</h3>
+        <p>We deliver halal-certified chicken, beef, and lamb directly to restaurants in NJ & NY.</p>
+      </div>
+      <div>
+        <h3>Direct from slaughterhouse.</h3>
+        <p>Guaranteed fresh. Our meats come straight from certified sources to your kitchen.</p>
+      </div>
+      <div>
+        <h3>Easy online booking.</h3>
+        <p>Order exactly what you need, choose your delivery date, and we’ll handle the rest.</p>
+      </div>
+    </div>
   </section>
 
-  <section class="locations">
-    <h2>Service Areas</h2>
-    <p>We currently serve restaurants and wholesalers in:</p>
-    <ul>
-      <li>New York City (All 5 Boroughs)</li>
-      <li>North & Central New Jersey</li>
-    </ul>
+  <section id="book">
+    <h2>Book Your Meat Delivery</h2>
+    <p>Reserve your order now. No payment required yet.</p>
+    <form>
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your message..." rows="5"></textarea>
+      <button type="submit">Submit</button>
+    </form>
   </section>
 
-  <section class="contact">
-    <h2>Contact Us</h2>
-    <p>Email: <a href="mailto:orders@halalconnect.com">orders@halalconnect.com</a></p>
-    <p>Phone: +1 (555) 987-6543</p>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 HalalConnect. All rights reserved.</p>
+  <footer id="contact">
+    <div class="footer-links">
+      <div>
+        <h4>Information</h4>
+        <ul>
+          <li>Home</li>
+          <li>Services</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li>Book Order</li>
+          <li>FAQ</li>
+          <li>Terms</li>
+        </ul>
+      </div>
+    </div>
+    <p>&copy; 2025 Halal Connect. All rights reserved.</p>
   </footer>
 </body>
 </html>
