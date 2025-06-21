@@ -140,3 +140,11 @@ footer p {
   padding: 20px;
   color: black;
 }
+
+.subtext {
+  font-size: 0.8em;
+  font-style: italic;
+  color: black;
+  margin-top: 4px;
+  margin-left: 2px;
+}
